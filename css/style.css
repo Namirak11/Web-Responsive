@@ -42,10 +42,10 @@
 
 .footer a{
     text-decoration: none;
-    color: white;
+    color: #f1843e;
 }
 
-.footer a{
+.footer a:hover{
     text-decoration: none;
     color: white;
 }
