@@ -42,12 +42,12 @@
 
 .footer a{
     text-decoration: none;
-    color: #f1843e;
+    color: white;
 }
 
 .footer a:hover{
     text-decoration: none;
-    color: white;
+    color: #f1843e;
 }
 
 /*ICONO*/
