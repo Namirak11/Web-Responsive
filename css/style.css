@@ -207,8 +207,12 @@ header {
 }
 
 .video{
-    padding: 5%;
-    width: auto;
+    padding: 0% 10%;
+}
+
+.video video{
+    width: 100%;
+    height: auto;
 }
 
 .discord-button {
