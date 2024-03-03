@@ -58,6 +58,7 @@
     margin-top: 5%;
     margin-bottom: 2%;
     font-size: 400%;
+    color: white;
 }
 
 .header3{
@@ -68,7 +69,8 @@
 .paragraph1{
     font-size: 150%;
     overflow: hidden;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .paragraph2{
@@ -78,7 +80,6 @@
 }
 
 .Expectations{
-    margin-bottom: 10%;
     color: white;
     text-align: center;
     background-image: url(../img/goku-6076401.jpg);
@@ -128,19 +129,18 @@
 }
 
 .Footer{
-    padding: 1.5%; 
+    padding: 1%; 
     bottom: 0%;
     left: 0%;
     width: 97%;
     background-color: #113bd6;
     color: white;
-    font-family: MyFont;
     font-size: 120%;
 }
 
 .Footer a{
     text-decoration: none;
-    color: white;
+    color: white;   
 }
 
 .Footer a:hover{
@@ -192,13 +192,82 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
+header {
+    text-align: center;
+}
+
+.Services{
+    background-color: rgb(0, 128, 0);
+    padding: 5%;
+    width: 90%;
+    color: white;
+}
+.Discord {
+    text-align: center;
+}
+
+.video{
+    padding: 5%;
+    width: auto;
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 0.5% 1%;
+    background-color: #7289da;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.discord-button:hover {
+    background-color: #677bc4;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list ul li {
+    margin-bottom: 10px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list a:hover {
+    color: #f1843e;
+}
+
+.Legal{
+    width: 90%;
+    padding: 5%;
+    background-color: #f1843e;
+}
+
+
+.Whereabouts{
+    width: 90%;
+    padding: 5%;
+    background-color: #f5ea2e;
+    text-align: center;
+}
+
+
+.Whereabouts iframe{
+    width: 100%;
+}
+
 /* Responsive Styling */
 @media only screen and (max-width: 600px) {
     .container {
         width: 80%;
     }
 }
-
+ 
 @media only screen and (max-width:600px) {
     .topnav a.icon{
         display: block;
