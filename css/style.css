@@ -67,6 +67,7 @@
     color: #f5ea2e;
 }
 .paragraph1{
+    color: white;
     font-size: 150%;
     overflow: hidden;
     margin-bottom: 5%;
@@ -297,18 +298,30 @@ header {
 
     .Start{
         background-image: url(../img/peakpx.jpg);
+        background-repeat: repeat;
     }
 
     .Expectations{
-        background-image: url(../img/wp6234782-broly-super-saiyan-god-wallpapers.png);
-        background-size: auto;
+        background-image: url(../img/peakpx.jpg);
+        background-repeat: repeat;
+        background-size: contain;
     }
 
+    .Form{
+        background-image: url(../img/peakpx.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 45%;
+    }
+
+    .header1{
+        font-size: 200%;
+    }
     .container{
         width: 100%;
         background-color: rgba(0, 128, 0, 0.9);
         float: none;
-
     }
     .container img{
         width: 100%;
@@ -323,7 +336,5 @@ header {
         font-size: 9vw;
     }
 
-    .Form {
-        width: 80%;
-    }
+    
 }
