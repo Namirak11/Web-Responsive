@@ -130,8 +130,9 @@
 }
 
 .Footer{
+    position: absolute;
     padding: 1%; 
-    bottom: 0%;
+    bottom: 0;
     left: 0%;
     width: 98%;
     background-color: #113bd6;
